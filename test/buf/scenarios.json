@@ -1,0 +1,10 @@
+{
+    "buf": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "buf": {
+                "version": "latest"
+            }
+        }
+    }
+}

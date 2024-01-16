@@ -1,0 +1,20 @@
+{
+    "name": "Earthly",
+    "id": "earthly",
+    "version": "1.0.1",
+    "description": "Earthly build system https://github.com/earthly/earthly",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "v0.7.23"
+            ],
+            "default": "latest",
+            "description": "EARTHLY version to install. Format semver like v1.1.1"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

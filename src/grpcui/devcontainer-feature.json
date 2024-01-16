@@ -1,0 +1,20 @@
+{
+    "name": "gRPC UI",
+    "id": "grpcui",
+    "version": "1.0.0",
+    "description": "gRPC UI https://github.com/fullstorydev/grpcui",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "v1.3.3"
+            ],
+            "default": "latest",
+            "description": "gRPC UI version to install. Format semver like v1.1.1"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

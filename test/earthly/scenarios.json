@@ -1,0 +1,10 @@
+{
+    "earthly": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "earthly": {
+                "version": "latest"
+            }
+        }
+    }
+}

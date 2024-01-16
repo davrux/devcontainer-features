@@ -1,0 +1,20 @@
+{
+    "name": "Bufbuild buf",
+    "id": "buf",
+    "version": "1.0.3",
+    "description": "Buf for protocol buffers, https://github.com/bufbuild/buf",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "v1.28.1"
+            ],
+            "default": "latest",
+            "description": "BUF version to install. Format semver like v1.1.1"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
