@@ -6,7 +6,7 @@ This repository contains a _collection_ of Features.
 
 ### buf
 
-Installs buf
+Installs buf:
 
 ```jsonc
 {
@@ -20,12 +20,26 @@ Installs buf
 
 ### earthly
 
-Installs earthly
+Installs earthly:
 
 ```jsonc
 {
     "features": {
         "ghcr.io/davrux/devcontainer-features/earthly:1": {
+            "version": "latest"
+        }
+    }
+}
+```
+
+### grpcui
+
+Installs grpcui:
+
+```jsonc
+{
+    "features": {
+        "ghcr.io/davrux/devcontainer-features/grpcui:1": {
             "version": "latest"
         }
     }
@@ -39,6 +53,7 @@ Installs earthly
 devcontainer features test
 devcontainer features test --features buf
 devcontainer features test --features earthly
+devcontainer features test --features grpcui
 ```
 
 ## Distributing Features
